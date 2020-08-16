@@ -11,7 +11,7 @@ function onCreate(map) {
     var lng = $.cookie('tanukimap_lng');
     var zoom = $.cookie('tanukimap_zoom');
     
-    var latlng = [35.44583, 139.35116];
+    var latlng = [35.749788, 139.586568];
     
     if (lat != null && lng != null) {
         latlng = [lat, lng];
