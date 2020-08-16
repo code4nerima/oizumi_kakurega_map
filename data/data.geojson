@@ -1,0 +1,485 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.62135666,35.74713166 ]
+    },
+    "properties": {
+    "date":"2018/03/25",
+    "content":"大きめたぬき",
+    "address":"",
+    "picture":"35_74713166_139_62135666.jpg",
+    "type":"焼き物",
+    "size":"サイズ：大きめ",
+    "memo":"お蕎麦屋さん",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"soba-restaurant",
+    "memo_hidden":"by_Yokota"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.63812694,35.73573277 ]
+    },
+    "properties": {
+    "date":"2018/03/25",
+    "content":"地味っぽいたぬき",
+    "address":"",
+    "picture":"35_73573277_139_63812694.jpg",
+    "type":"焼き物",
+    "size":"サイズ：ミニ",
+    "memo":"天婦羅屋さん",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"tempra_restaurant",
+    "memo_hidden":"店名：天たけ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.69593811,35.72561004 ]
+    },
+    "properties": {
+    "date":"2018/02/24",
+    "content":"大迫力たぬき",
+    "address":"",
+    "picture":"35_72561004_139_69593811.jpg",
+    "type":"焼き物",
+    "size":"サイズ：大迫力",
+    "memo":"企業",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"company",
+    "memo_hidden":"株式会社侍グループ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.63975524,35.73583221 ]
+    },
+    "properties": {
+    "date":"2018/03/25",
+    "content":"小料理屋たぬき",
+    "address":"",
+    "picture":"35_73583221_139_63975524.jpg",
+    "type":"焼き物",
+    "size":"サイズ：普通",
+    "memo":"小料理屋さん",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"nomi-ya",
+    "memo_hidden":"小料理飛鳥"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.66223144,35.73900222 ]
+    },
+    "properties": {
+    "date":"2018/04/01",
+    "content":"看板坊やたぬき",
+    "address":"",
+    "picture":"35_73900222_139_66223144.jpg",
+    "type":"焼き物",
+    "size":"サイズ：ミニ",
+    "memo":"お寿司屋さん",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"sushi-restaurant",
+    "memo_hidden":"魚がし寿司桜台店"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.6547073,35.7368716 ]
+    },
+    "properties": {
+    "date":"2018/04/08",
+    "content":"貴重な電飾たぬき",
+    "address":"",
+    "picture":"35_7368716_139_6547073.jpg",
+    "type":"電飾",
+    "size":"サイズ：規格外",
+    "memo":"飲み屋さん",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"restaurant",
+    "memo_hidden":"たぬき"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.6055332,35.7443279 ]
+    },
+    "properties": {
+    "date":"2018/04/08",
+    "content":"金融機関のたぬきたち",
+    "address":"",
+    "picture":"35_7443279_139_6055332.jpg",
+    "type":"焼き物",
+    "size":"サイズ：いろいろ",
+    "memo":"金融機関",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"bank",
+    "memo_hidden":"東京シティ信用金庫 石神井支店"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.6063252,35.7430082 ]
+    },
+    "properties": {
+    "date":"2018/04/08",
+    "content":"ガレージたぬき",
+    "address":"",
+    "picture":"35_7430082_139_6063252.jpg",
+    "type":"焼き物",
+    "size":"サイズ：巨大",
+    "memo":"お花屋さん",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"flowershop",
+    "memo_hidden":"日東生花"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.6538876,35.736106 ]
+    },
+    "properties": {
+    "date":"2018/02/18",
+    "content":"磯料理たぬき",
+    "address":"",
+    "picture":"35_736106_139_6538876.jpg",
+    "type":"焼き物",
+    "size":"サイズ：大型",
+    "memo":"飲み屋さん",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"nomi-ya",
+    "memo_hidden":"磯料理海峡"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.587164,35.75502 ]
+    },
+    "properties": {
+    "date":"2018/04/10",
+    "content":"謎のスペースのたぬき",
+    "address":"",
+    "picture":"35_75502_139_587164xyz.jpg",
+    "type":"焼き物",
+    "size":"サイズ：普通",
+    "memo":"ビューティサロン",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"salon",
+    "memo_hidden":"ビューティサロンドサカエ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.655677,35.741551 ]
+    },
+    "properties": {
+    "date":"2018/04/12",
+    "content":"我風庵たぬき",
+    "address":"",
+    "picture":"35_741551_139_655677.jpg",
+    "type":"焼き物",
+    "size":"サイズ：小型",
+    "memo":"飲食店",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"restaurant",
+    "memo_hidden":"我風庵やかた"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.65556654,35.73621938 ]
+    },
+    "properties": {
+    "date":"2018/04/25",
+    "content":"みなみのたぬき",
+    "address":"",
+    "picture":"35_73621938_139_65556654.jpg",
+    "type":"焼き物×2",
+    "size":"サイズ：小型",
+    "memo":"飲食店",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"restaurant",
+    "memo_hidden":"みなみ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.5882564,35.7391428 ]
+    },
+    "properties": {
+    "date":"2018/04/30",
+    "content":"交差点のたぬき",
+    "address":"",
+    "picture":"35_7391428_139_5882564.jpg",
+    "type":"焼き物×3",
+    "size":"サイズ：小型",
+    "memo":"地蔵のとなり",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"street",
+    "memo_hidden":"みなみ石神井学園前の交差点"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.6697059,35.7390593 ]
+    },
+    "properties": {
+    "date":"2018/04/30",
+    "content":"マスコットのたぬき",
+    "address":"",
+    "picture":"35_7390593_139_6697059.jpg",
+    "type":"キャラクター",
+    "size":"サイズ：普通",
+    "memo":"アライグマという説もあり",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"",
+    "memo_hidden":"カルチャースタジオRacoon"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.6328362,35.757524 ]
+    },
+    "properties": {
+    "date":"2018/05/08",
+    "content":"蜻蛉たぬき",
+    "address":"",
+    "picture":"35_757524_139_6328362.jpg",
+    "type":"焼き物",
+    "size":"サイズ：中型",
+    "memo":"飲み屋さん",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"",
+    "memo_hidden":"蜻蛉"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.6383422,35.7341343 ]
+    },
+    "properties": {
+    "date":"2018/05/10",
+    "content":"焼きとんたぬき",
+    "address":"",
+    "picture":"35_7341343_139_6383422.jpg",
+    "type":"焼き物",
+    "size":"サイズ：小さめ",
+    "memo":"飲み屋さん",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"",
+    "memo_hidden":"とん兵衛"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.67439166,35.73092777 ]
+    },
+    "properties": {
+    "date":"2018/05/19",
+    "content":"鉢植えたぬき",
+    "address":"",
+    "picture":"35_73092777_139_67439166.jpg",
+    "type":"焼き物",
+    "size":"サイズ：ミニ",
+    "memo":"スナック",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"",
+    "memo_hidden":"伊和"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.58137500,35.74708055 ]
+    },
+    "properties": {
+    "date":"2018/05/20",
+    "content":"ソバリエたぬき",
+    "address":"",
+    "picture":"35_74708055_139_58137500.jpg",
+    "type":"焼き物",
+    "size":"サイズ：小さめ",
+    "memo":"お蕎麦屋さん",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"",
+    "memo_hidden":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.5871358368,35.7553900336 ]
+    },
+    "properties": {
+    "date":"2018/05/20",
+    "content":"パイプたぬき",
+    "address":"",
+    "picture":"35_7553900336_139_5871358368.jpg",
+    "type":"焼き物",
+    "size":"サイズ：ミニ",
+    "memo":"飲食店の跡地（？）",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"salon",
+    "memo_hidden":"詳細不明"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.592579,35.755572 ]
+    },
+    "properties": {
+    "date":"2018/05/30",
+    "content":"ひやしたぬきそば",
+    "address":"",
+    "picture":"35_755572_139_592579.jpg",
+    "type":"焼き物",
+    "size":"サイズ：ミニ",
+    "memo":"お蕎麦屋さん",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"salon",
+    "memo_hidden":"つかもと"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.593254,35.756308 ]
+    },
+    "properties": {
+    "date":"2018/06/06",
+    "content":"集会たぬき",
+    "address":"",
+    "picture":"35_756308_139_593254.jpg",
+    "type":"焼き物",
+    "size":"サイズ：様々",
+    "memo":"謎スペース",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"",
+    "memo_hidden":"詳細不明"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.5751353,35.7272916 ]
+    },
+    "properties": {
+    "date":"2018/06/15",
+    "content":"酒楽たぬき",
+    "address":"",
+    "picture":"35_7272916_139_5751353.jpg",
+    "type":"焼き物",
+    "size":"サイズ：中型",
+    "memo":"眼科のそば",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"飲み屋さん",
+    "memo_hidden":"酒楽"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.666335,35.747542 ]
+    },
+    "properties": {
+    "date":"2018/06/25",
+    "content":"JAたぬたぬ",
+    "address":"",
+    "picture":"35.747542_139.666335.jpg",
+    "type":"焼き物",
+    "size":"サイズ：大きめ",
+    "memo":"JA販売所",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"商業施設",
+    "memo_hidden":"JA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.591920,35.759498 ]
+    },
+    "properties": {
+    "date":"2018/07/03",
+    "content":"nericafe近くのたぬき",
+    "address":"",
+    "picture":"35.759498_139.591920.jpg",
+    "type":"焼き物",
+    "size":"サイズ：小型",
+    "memo":"クランクのところ",
+    "fromtime":"0;00",
+    "totime":"23:59",
+    "owner_class":"道路沿い",
+    "memo_hidden":"nericafe近く"
+    }
+  }
+]
+}
