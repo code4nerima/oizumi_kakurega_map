@@ -1,11 +1,12 @@
 // Events functions
 //
 //
-const cookie_key_lat = 'tanukimap_lat';
-const cookie_key_lng = 'tanukimap_lng';
-const cookie_key_zoom = 'tanukimap_zoom';
+const cookie_key_lat = 'oizumi_map_lat';
+const cookie_key_lng = 'oizumi_map_lng';
+const cookie_key_zoom = 'oizumi_map_zoom';
 const icon_file_path = 'flag_icon.png';
 const title = '大泉隠れ家マップ';
+const initial_position = [35.44583, 139.35116]; // 大泉学園駅
 
 var arg ;
 
@@ -16,7 +17,8 @@ function onCreate(map) {
     var lng = $.cookie(cookie_key_lng);
     var zoom = $.cookie(cookie_key_zoom);
     
-    var latlng = [35.737841, 139.653912];
+    //初期位置
+    var latlng = initial_position;
     
     if (lat != null && lng != null) {
         latlng = [lat, lng];
@@ -150,7 +152,7 @@ function onCreate(map) {
     }) ;
         
     L.easyButton('fa-home', function(btn, map){
-        var latlng = [35.737841, 139.65391];
+        var latlng = initial_position;
         map.setView(latlng, 13);
     
         saveMap() ;
