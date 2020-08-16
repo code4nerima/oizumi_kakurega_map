@@ -77,13 +77,13 @@ function onCreate(map) {
     $(".info").css("display", "none") ;
     
     var largeMarkerIcon = L.icon({
-        iconUrl: 'tanuki_icon.png',
+        iconUrl: 'flag_icon.png',
         iconSize: [80, 80],
         popupAnchor: [0, -40],
     });
 
     var markerIcon = L.icon({
-        iconUrl: 'tanuki_icon.png',
+        iconUrl: 'flag_icon.png',
         iconSize: [40, 40],
         popupAnchor: [0, -20],
     });
