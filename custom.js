@@ -1,23 +1,16 @@
 // Events functions
 //
 //
-const cookie_key_lat = 'oizumi_map_lat';
-const cookie_key_lng = 'oizumi_map_lng';
-const cookie_key_zoom = 'oizumi_map_zoom';
-const icon_file_path = 'flag_icon.png';
-const title = '大泉隠れ家マップ1';
-const initial_position = [35.44583, 139.35116]; // 大泉学園駅
 
 var arg ;
 
 // onCreate : This function is called when page began.
 function onCreate(map) {
     // Load location.
-    var lat = $.cookie('oizumi_map_lat');
-    var lng = $.cookie('oizumi_map_lng');
-    var zoom = $.cookie('oizumi_map_zoom');
+    var lat = $.cookie('tanukimap_lat');
+    var lng = $.cookie('tanukimap_lng');
+    var zoom = $.cookie('tanukimap_zoom');
     
-    //初期位置
     var latlng = [35.737841, 139.653912];
     
     if (lat != null && lng != null) {
@@ -84,13 +77,13 @@ function onCreate(map) {
     $(".info").css("display", "none") ;
     
     var largeMarkerIcon = L.icon({
-        iconUrl: icon_file_path,
+        iconUrl: 'tanuki_icon.png',
         iconSize: [80, 80],
         popupAnchor: [0, -40],
     });
 
     var markerIcon = L.icon({
-        iconUrl: icon_file_path,
+        iconUrl: 'tanuki_icon.png',
         iconSize: [40, 40],
         popupAnchor: [0, -20],
     });
@@ -152,7 +145,7 @@ function onCreate(map) {
     }) ;
         
     L.easyButton('fa-home', function(btn, map){
-        var latlng = [35.737841, 139.653912];
+        var latlng = [35.737841, 139.65391];
         map.setView(latlng, 13);
     
         saveMap() ;
@@ -161,9 +154,9 @@ function onCreate(map) {
     function saveMap() {
         var c = map.getCenter() ;
             var z = map.getZoom() ;
-            $.cookie('oizumi_map_lat', c.lat, { expires: 7, path: '/' });
-            $.cookie('oizumi_map_lng', c.lng, { expires: 7, path: '/' });
-            $.cookie('oizumi_map_zoom', z, { expires: 7, path: '/' });
+            $.cookie('tanukimap_lat', c.lat, { expires: 7, path: '/' });
+            $.cookie('tanukimap_lng', c.lng, { expires: 7, path: '/' });
+            $.cookie('tanukimap_zoom', z, { expires: 7, path: '/' });
     }
 }
 
@@ -178,7 +171,7 @@ function onUpdateInfo(feature) {
 }
 
 function createContent(feature) {
-    var popupContents = '<h4>' + title + '</h4>';
+    var popupContents = '<h4>大泉隠れ家マップ</h4>';
  
     if (feature && feature.properties) {     
         if (feature.properties.picture) {
