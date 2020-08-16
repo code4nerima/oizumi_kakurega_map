@@ -11,7 +11,7 @@ function onCreate(map) {
     var lng = $.cookie('tanukimap_lng');
     var zoom = $.cookie('tanukimap_zoom');
     
-    var latlng = [35.737841, 139.653912];
+    var latlng = [35.44583, 139.35116];
     
     if (lat != null && lng != null) {
         latlng = [lat, lng];
@@ -77,13 +77,13 @@ function onCreate(map) {
     $(".info").css("display", "none") ;
     
     var largeMarkerIcon = L.icon({
-        iconUrl: 'tanuki_icon.png',
+        iconUrl: 'flag_icon.png',
         iconSize: [80, 80],
         popupAnchor: [0, -40],
     });
 
     var markerIcon = L.icon({
-        iconUrl: 'tanuki_icon.png',
+        iconUrl: 'flag_icon.png',
         iconSize: [40, 40],
         popupAnchor: [0, -20],
     });
@@ -171,7 +171,7 @@ function onUpdateInfo(feature) {
 }
 
 function createContent(feature) {
-    var popupContents = '<h4>大泉隠れ家マップ</h4>';
+    var popupContents = '<h4>大泉隠れ家マップ1</h4>';
  
     if (feature && feature.properties) {     
         if (feature.properties.picture) {
