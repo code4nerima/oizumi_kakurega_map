@@ -195,12 +195,13 @@ function createContent(feature) {
         popupContents += '<tr><td><div class="link">' + '<a href="' + link + '">' + link + '</a></td></tr>' ;
         popupContents += "</table>" ;
 
-        if (feature.properties.fb_url) {
-            var fb_url = feature.properties.fb_url;
-            popupContents += '<table>'
-            popupContents += '<tr><td><div class="link">' + '<a href="' + fb_url + '">' + fb_url + '</a></td></tr>' ;
-            popupContents += "</table>" ;
-        }
+        
+        // if (feature.properties.fb_url) {
+        //     var fb_url = feature.properties.fb_url;
+        //     popupContents += '<table>'
+        //     popupContents += '<tr><td><div class="link">' + '<a href="' + fb_url + '">' + fb_url + '</a></td></tr>' ;
+        //     popupContents += "</table>" ;
+        // }
 
 
     }
