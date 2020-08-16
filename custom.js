@@ -171,7 +171,7 @@ function onUpdateInfo(feature) {
 }
 
 function createContent(feature) {
-    var popupContents = '<h4>ねりまオープンデータたぬき</h4>';
+    var popupContents = '<h4>大泉隠れ家マップ</h4>';
  
     if (feature && feature.properties) {     
         if (feature.properties.picture) {
@@ -182,14 +182,6 @@ function createContent(feature) {
             popupContents += feature.properties.content ;
         } else {
             popupContents += "-" ;
-        }
-        
-        if (feature.properties.type) {
-            popupContents += "<br />" + feature.properties.type;
-        }
-        
-        if (feature.properties.size) {
-            popupContents += "<br />" + feature.properties.size;
         }
         
         if (feature.properties.memo) {
