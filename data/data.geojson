@@ -24,7 +24,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 139.585573,35.746448 ]
+       "coordinates":  [ 139.595345,35.746796 ]
     },
     "properties": {
     "date":"2020/07/05",
