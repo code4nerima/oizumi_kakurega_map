@@ -145,7 +145,7 @@ function onCreate(map) {
     }) ;
         
     L.easyButton('fa-home', function(btn, map){
-        var latlng = [35.737841, 139.65391];
+        var latlng = [35.44583, 139.35116];
         map.setView(latlng, 13);
     
         saveMap() ;
