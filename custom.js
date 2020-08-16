@@ -7,9 +7,9 @@ var arg ;
 // onCreate : This function is called when page began.
 function onCreate(map) {
     // Load location.
-    var lat = $.cookie('tanukimap_lat');
-    var lng = $.cookie('tanukimap_lng');
-    var zoom = $.cookie('tanukimap_zoom');
+    var lat = $.cookie('oizumimap_lat');
+    var lng = $.cookie('oizumimap_lng');
+    var zoom = $.cookie('oizumimap_zoom');
     
     var latlng = [35.44583, 139.35116];
     
@@ -154,9 +154,9 @@ function onCreate(map) {
     function saveMap() {
         var c = map.getCenter() ;
             var z = map.getZoom() ;
-            $.cookie('tanukimap_lat', c.lat, { expires: 7, path: '/' });
-            $.cookie('tanukimap_lng', c.lng, { expires: 7, path: '/' });
-            $.cookie('tanukimap_zoom', z, { expires: 7, path: '/' });
+            $.cookie('oizumimap_lat', c.lat, { expires: 7, path: '/' });
+            $.cookie('oizumimap_lng', c.lng, { expires: 7, path: '/' });
+            $.cookie('oizumimap_zoom', z, { expires: 7, path: '/' });
     }
 }
 
