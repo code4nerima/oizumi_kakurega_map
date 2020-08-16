@@ -18,7 +18,7 @@ function onCreate(map) {
     var zoom = $.cookie(cookie_key_zoom);
     
     //初期位置
-    var latlng = [35.44583, 139.35116];
+    var latlng = [35.737841, 139.653912];
     
     if (lat != null && lng != null) {
         latlng = [lat, lng];
@@ -152,7 +152,7 @@ function onCreate(map) {
     }) ;
         
     L.easyButton('fa-home', function(btn, map){
-        var latlng = [35.44583, 139.35116];
+        var latlng = [35.737841, 139.653912];
         map.setView(latlng, 13);
     
         saveMap() ;
