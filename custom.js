@@ -5,7 +5,7 @@ const cookie_key_lat = 'oizumi_map_lat';
 const cookie_key_lng = 'oizumi_map_lng';
 const cookie_key_zoom = 'oizumi_map_zoom';
 const icon_file_path = 'flag_icon.png';
-const title = '大泉隠れ家マップ';
+const title = '大泉隠れ家マップ1';
 const initial_position = [35.44583, 139.35116]; // 大泉学園駅
 
 var arg ;
@@ -13,9 +13,9 @@ var arg ;
 // onCreate : This function is called when page began.
 function onCreate(map) {
     // Load location.
-    var lat = $.cookie(cookie_key_lat);
-    var lng = $.cookie(cookie_key_lng);
-    var zoom = $.cookie(cookie_key_zoom);
+    var lat = $.cookie('oizumi_map_lat');
+    var lng = $.cookie('oizumi_map_lng');
+    var zoom = $.cookie('oizumi_map_zoom');
     
     //初期位置
     var latlng = [35.737841, 139.653912];
@@ -161,9 +161,9 @@ function onCreate(map) {
     function saveMap() {
         var c = map.getCenter() ;
             var z = map.getZoom() ;
-            $.cookie(cookie_key_lat, c.lat, { expires: 7, path: '/' });
-            $.cookie(cookie_key_lng, c.lng, { expires: 7, path: '/' });
-            $.cookie(cookie_key_zoom, z, { expires: 7, path: '/' });
+            $.cookie('oizumi_map_lat', c.lat, { expires: 7, path: '/' });
+            $.cookie('oizumi_map_lng', c.lng, { expires: 7, path: '/' });
+            $.cookie('oizumi_map_zoom', z, { expires: 7, path: '/' });
     }
 }
 
