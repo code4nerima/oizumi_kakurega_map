@@ -171,7 +171,7 @@ function onUpdateInfo(feature) {
 }
 
 function createContent(feature) {
-    var popupContents = '<h4>大泉隠れ家マップ1xx</h4>';
+    var popupContents = '<h4>大泉隠れ家マップ1</h4>';
  
     if (feature && feature.properties) {     
         if (feature.properties.picture) {
