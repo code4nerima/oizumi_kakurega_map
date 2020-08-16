@@ -19,6 +19,25 @@
     "memo_hidden":"",
     "fb_url":"https://www.facebook.com/groups/1878956765652535/permalink/2609379079276963/"
      }
+  },
+    {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.585573,35.746448 ]
+    },
+    "properties": {
+    "date":"2020/07/05",
+    "content":"東大泉1丁目",
+    "address":"",
+    "picture":"2.jpg",
+    "memo":"梅雨明け前にもうあきの気配",
+    "fromtime":"",
+    "totime":"",
+    "owner_class":"",
+    "memo_hidden":"",
+    "fb_url":"https://www.facebook.com/groups/1878956765652535/permalink/2615974188617452/"
+     }
   }
 ]
 }
